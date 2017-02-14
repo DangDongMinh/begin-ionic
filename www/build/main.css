@@ -21276,3 +21276,19 @@ sub {
     padding-top: calc(16px + 20px);
   }
 }
+
+.buttons {
+  width: 48.4%;
+}
+
+.buttons-end {
+  width: 48.4%;
+}
+
+.backgroundImage {
+  background: url("http://divashop.vn/review/wp-content/uploads/2016/01/bi-quyet-de-co-nhung-buc-anh-street-style-dat-gia-2016-1.jpg");
+  background-size: 100% 100% !important;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
