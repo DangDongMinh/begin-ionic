@@ -1,21 +1,29 @@
 <ion-header>
   <ion-navbar color="primary">
-    <ion-title>
+    <ion-title class="title">
       TRANG CHỦ
     </ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content padding class="backgroundImage">
+<ion-content class="card-background-page">
+
+  <ion-card>
+    <img src="https://ionicframework.com/dist/preview-app/www/assets/img/card-saopaolo.png" />
+    <img src="https://ionicframework.com/dist/preview-app/www/assets/img/card-sf.png" />
+    <img src="https://ionicframework.com/dist/preview-app/www/assets/img/card-amsterdam.png" />
+  </ion-card>
+
+
 </ion-content>
 
 <ion-footer>
   <ion-buttons>
-    <button ion-button icon-only class="buttons-end" color="danger">
-      <ion-icon name="arrow-back"></ion-icon>
+    <button ion-button (click)="nextPage();" icon-only class="buttons" color="secondary">
+        <ion-icon name="md-add-circle"></ion-icon>
     </button>
-    <button ion-button icon-only class="buttons" color="secondary">
-        <ion-icon name="add"></ion-icon>
+    <button ion-button icon-only class="buttons-end" color="danger">
+      <ion-icon name="md-close-circle"></ion-icon>
     </button>
   </ion-buttons>
 </ion-footer>
