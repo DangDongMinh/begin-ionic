@@ -4,13 +4,16 @@ import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { EntersPage } from '../pages/enters/enters';
 import { CreatemenuPage } from '../pages/createmenu/createmenu';
+import { SuggestmenuPage } from '../pages/suggestmenu/suggestmenu';
+
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
     EntersPage,
-    CreatemenuPage
+    CreatemenuPage,
+    SuggestmenuPage
   ],
   imports: [
     IonicModule.forRoot(MyApp)
@@ -20,7 +23,8 @@ import { CreatemenuPage } from '../pages/createmenu/createmenu';
     MyApp,
     HomePage,
     EntersPage,
-    CreatemenuPage
+    CreatemenuPage,
+    SuggestmenuPage
   ],
   providers: [{provide: ErrorHandler, useClass: IonicErrorHandler}]
 })

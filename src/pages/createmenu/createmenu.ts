@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
+import { SuggestmenuPage } from '../suggestmenu/suggestmenu';
 
 /*
   Generated class for the Createmenu page.
@@ -13,10 +14,14 @@ import { NavController, NavParams } from 'ionic-angular';
 })
 export class CreatemenuPage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {}
+  constructor(public navCtrl: NavController, public navParams: NavParams) { }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad CreatemenuPage');
+    console.log('Hello CreatemenuPage page');
+  }
+
+  SuggestmenuPage() {
+    this.navCtrl.push(SuggestmenuPage);
   }
 
 }
