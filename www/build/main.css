@@ -21277,11 +21277,6 @@ sub {
   }
 }
 
-.suggest {
-  width: 100%;
-  height: 100%;
-}
-
 .title-enters {
   text-align: center;
 }
@@ -21300,4 +21295,46 @@ hr {
 
 .title {
   text-align: center;
+}
+
+ion-content img {
+  height: 550px;
+}
+
+ion-list {
+  background: darkkhaki;
+}
+
+ion-card img {
+  margin-bottom: 15px;
+  height: 200px;
+}
+
+.card-background-page ion-card {
+  position: relative;
+  text-align: center;
+}
+
+.card-background-page .card-title {
+  position: absolute;
+  top: 36%;
+  font-size: 2.0em;
+  width: 100%;
+  font-weight: bold;
+  color: #fff;
+}
+
+.card-background-page .card-subtitle {
+  font-size: 1.0em;
+  position: absolute;
+  top: 52%;
+  width: 100%;
+  color: #fff;
+}
+
+ion-card-header {
+  text-align: center;
+  font-size: 2.0em;
+  font-weight: bold;
+  color: #fff;
 }

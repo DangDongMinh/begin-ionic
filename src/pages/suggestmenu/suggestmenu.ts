@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
+import { SuggestmenudetailPage } from '../suggestmenudetail/suggestmenudetail';
 
 /*
   Generated class for the Suggestmenu page.
@@ -17,6 +18,9 @@ export class SuggestmenuPage {
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad SuggestmenuPage');
+  }
+  SuggestmenudetailPage() {
+    this.navCtrl.push(SuggestmenudetailPage);
   }
 
 }

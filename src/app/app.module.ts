@@ -5,6 +5,7 @@ import { HomePage } from '../pages/home/home';
 import { EntersPage } from '../pages/enters/enters';
 import { CreatemenuPage } from '../pages/createmenu/createmenu';
 import { SuggestmenuPage } from '../pages/suggestmenu/suggestmenu';
+import { SuggestmenudetailPage } from '../pages/suggestmenudetail/suggestmenudetail';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { SuggestmenuPage } from '../pages/suggestmenu/suggestmenu';
     HomePage,
     EntersPage,
     CreatemenuPage,
-    SuggestmenuPage
+    SuggestmenuPage,
+    SuggestmenudetailPage
   ],
   imports: [
     IonicModule.forRoot(MyApp)
@@ -24,7 +26,8 @@ import { SuggestmenuPage } from '../pages/suggestmenu/suggestmenu';
     HomePage,
     EntersPage,
     CreatemenuPage,
-    SuggestmenuPage
+    SuggestmenuPage,
+    SuggestmenudetailPage
   ],
   providers: [{provide: ErrorHandler, useClass: IonicErrorHandler}]
 })
