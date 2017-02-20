@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
 import { SuggestmenuPage } from '../suggestmenu/suggestmenu';
+import { ListdayPage } from '../listday/listday';
 
 /*
   Generated class for the Createmenu page.
@@ -22,6 +23,10 @@ export class CreatemenuPage {
 
   SuggestmenuPage() {
     this.navCtrl.push(SuggestmenuPage);
+  }
+
+  nextPage() {
+    this.navCtrl.push(ListdayPage);
   }
 
 }

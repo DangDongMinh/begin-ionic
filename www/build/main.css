@@ -21285,6 +21285,10 @@ hr {
   width: 80%;
 }
 
+ion-content {
+  body: #f80000;
+}
+
 .buttons {
   width: 48.4%;
 }
@@ -21301,8 +21305,84 @@ ion-content img {
   height: 550px;
 }
 
-ion-list {
-  background: darkkhaki;
+h1 {
+  text-align: center;
+}
+
+ion-card img {
+  margin-bottom: 15px;
+  height: 200px;
+}
+
+.card-background-page ion-card {
+  position: relative;
+  text-align: center;
+}
+
+.card-background-page .card-title {
+  position: absolute;
+  top: 36%;
+  font-size: 2.0em;
+  width: 100%;
+  font-weight: bold;
+  color: #fff;
+}
+
+.card-background-page .card-subtitle {
+  font-size: 1.0em;
+  position: absolute;
+  top: 52%;
+  width: 100%;
+  color: #fff;
+}
+
+ion-card-header {
+  text-align: center;
+  font-size: 2.0em;
+  font-weight: bold;
+  color: #fff;
+}
+
+h1 {
+  text-align: center;
+}
+
+ion-card img {
+  margin-bottom: 15px;
+  height: 200px;
+}
+
+.card-background-page ion-card {
+  position: relative;
+  text-align: center;
+}
+
+.card-background-page .card-title {
+  position: absolute;
+  top: 36%;
+  font-size: 2.0em;
+  width: 100%;
+  font-weight: bold;
+  color: #fff;
+}
+
+.card-background-page .card-subtitle {
+  font-size: 1.0em;
+  position: absolute;
+  top: 52%;
+  width: 100%;
+  color: #fff;
+}
+
+ion-card-header {
+  text-align: center;
+  font-size: 2.0em;
+  font-weight: bold;
+  color: #fff;
+}
+
+ion-title.testing {
+  text-align: center;
 }
 
 ion-card img {

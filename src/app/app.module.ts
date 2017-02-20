@@ -6,6 +6,10 @@ import { EntersPage } from '../pages/enters/enters';
 import { CreatemenuPage } from '../pages/createmenu/createmenu';
 import { SuggestmenuPage } from '../pages/suggestmenu/suggestmenu';
 import { SuggestmenudetailPage } from '../pages/suggestmenudetail/suggestmenudetail';
+import { ListdayPage } from '../pages/listday/listday';
+import { MenumorningPage } from '../pages/menumorning/menumorning';
+import { MenuafternoonPage } from '../pages/menuafternoon/menuafternoon';
+import { MenulunchPage } from '../pages/menulunch/menulunch';
 
 
 @NgModule({
@@ -15,7 +19,11 @@ import { SuggestmenudetailPage } from '../pages/suggestmenudetail/suggestmenudet
     EntersPage,
     CreatemenuPage,
     SuggestmenuPage,
-    SuggestmenudetailPage
+    SuggestmenudetailPage,
+    ListdayPage,
+    MenumorningPage,
+    MenuafternoonPage,
+    MenulunchPage
   ],
   imports: [
     IonicModule.forRoot(MyApp)
@@ -27,7 +35,11 @@ import { SuggestmenudetailPage } from '../pages/suggestmenudetail/suggestmenudet
     EntersPage,
     CreatemenuPage,
     SuggestmenuPage,
-    SuggestmenudetailPage
+    SuggestmenudetailPage,
+    ListdayPage,
+    MenumorningPage,
+    MenuafternoonPage,
+    MenulunchPage
   ],
   providers: [{provide: ErrorHandler, useClass: IonicErrorHandler}]
 })
